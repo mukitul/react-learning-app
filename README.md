@@ -1,3 +1,9 @@
+## Higher Order Component (HOC) Pattern
+ - using the higher order component pattern - being able to reuse the same logic in multiple components
+ - a Higher Order Component (HOC) is a component that receives another component.
+ - the HOC contains certain logic that we want to apply to the component that we pass as a parameter.
+ - after applying that logic, the HOC returns the element with the additional logic.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
