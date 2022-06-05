@@ -1,8 +1,23 @@
-## Higher Order Component (HOC) Pattern
- - using the higher order component pattern - being able to reuse the same logic in multiple components
- - a Higher Order Component (HOC) is a component that receives another component.
- - the HOC contains certain logic that we want to apply to the component that we pass as a parameter.
- - after applying that logic, the HOC returns the element with the additional logic.
+## Lifting State Up Pattern
+- immediate children's functionality will be in the parent component
+and parent component passes the functionality to the immediate children by one-way-data-flow [i.e.: using props]
+- if there is multiple component in parent-child hierarchy and needed to pass functionality by using props
+than we will face a problem call "Props Drilling"
+
+## How to AVOID "Props Drilling"
+
+### 1. Render Props Pattern
+
+### 2. Higher Order Component (HOC) Pattern
+- using the higher order component pattern - being able to reuse the same logic in multiple components
+- a Higher Order Component (HOC) is a component that receives another component.
+- the HOC contains certain logic that we want to apply to the component that we pass as a parameter.
+- after applying that logic, the HOC returns the element with the additional logic.
+
+
+
+
+
 
 # Getting Started with Create React App
 
